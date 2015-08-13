@@ -12,7 +12,7 @@
   maxLinksPerNode = 9999;
   doNotTraverseTheseElements = ['script', 'br', 'col', 'command', 'hr', 'img', 'input', 'keygen', 'link', 'meta', 'param', 'source', 'track', 'wbr', 'video', 'iframe'];
 
-  var EagerEmojiOne = {
+  var EagerEmojify = {
     init: function(selector) {
       var node;
 
@@ -22,7 +22,7 @@
         node = document.body;
       }
 
-      EagerEmojiOne.process(node);
+      EagerEmojify.process(node);
     },
     process: function(node) {
       if (node.nodeType === 3) {
@@ -62,16 +62,16 @@
           var child = node.childNodes[i];
 
           if (!child.tagName || doNotTraverseTheseElements.indexOf(child.tagName.toLowerCase()) === -1) {
-            EagerEmojiOne.process(child);
+            EagerEmojify.process(child);
           }
         }
       }
     }
   };
 
-  window.EagerEmojiOne = EagerEmojiOne;
+  window.EagerEmojify = EagerEmojify;
 
   document.addEventListener('DOMContentLoaded', function(){
-    EagerEmojiOne.init();
+    EagerEmojify.init();
   });
 })();
