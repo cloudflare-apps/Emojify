@@ -1,0 +1,13 @@
+{
+  "name": "eager-emojione",
+  "homepage": "https://github.com/EagerApps/EmojiOne",
+  "authors": [
+    "Adam Schwartz <adam.flynn.schwartz@gmail.com>"
+  ],
+  "description": "EmojiOne Eager app",
+  "main": "install.json",
+  "license": "MIT",
+  "devDependencies": {
+    "emojione": "~1.5.0"
+  }
+}

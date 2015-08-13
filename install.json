@@ -1,0 +1,18 @@
+{
+  "resources": {
+    "head": [
+      {
+        "type": "style",
+        "src": "./bower_components/emojione/assets/css/emojione.css"
+      },
+      {
+        "type": "script",
+        "src": "./bower_components/emojione/lib/js/emojione.js"
+      },
+      {
+        "type": "script",
+        "src": "./eager-emojione.js"
+      }
+    ]
+  }
+}

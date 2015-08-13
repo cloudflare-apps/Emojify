@@ -1,0 +1,15 @@
+*.editorconfig
+*.travis.yml
+bower_components/emojione/*.json
+bower_components/emojione/*.js
+bower_components/emojione/assets/css/*.min.css
+bower_components/emojione/assets/png/
+bower_components/emojione/assets/sprites/
+bower_components/emojione/assets/svg/
+bower_components/emojione/lib/ios/
+bower_components/emojione/lib/android/
+bower_components/emojione/lib/*.md
+bower_components/emojione/lib/*.yml
+bower_components/emojione/lib/js/js-test
+bower_components/emojione/lib/js/*.min.js
+bower_components/emojione/lib/meteor
