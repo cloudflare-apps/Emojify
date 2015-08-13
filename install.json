@@ -11,7 +11,7 @@
       },
       {
         "type": "script",
-        "src": "./eager-emojione.js"
+        "src": "./eager-emojify.js"
       }
     ]
   }
